@@ -7,4 +7,4 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(src)
-add_executable(app src/main.cpp src/math.cpp)
+add_executable(app src/main.cpp src/math.cpp src/thread_pool.cpp)
